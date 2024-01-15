@@ -1,0 +1,885 @@
+
+.nav{
+    height: 100px;
+    width: 1370px;
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    position: relative;
+}
+.c1{
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-family: Arial Black;
+}
+.c2{
+    color: white;
+    position: absolute;
+    top: 35px;
+    right: 250px;
+    
+}
+.c3{
+    color: white;
+    position: absolute;
+    top: 35px;
+    right: 160px;
+}
+.c4{
+    color: white;
+    position: absolute;
+    top: 35px;
+    right: 50px;
+}
+.main{
+    position: relative;
+    height: 600px;
+    width: 1370px;
+    background-color: aqua;
+}
+.c5{
+    position: absolute;
+    left: 550px;
+    top: 80px;
+}
+.c6{
+    position: absolute;
+    color: white;
+    font-family: Arial Black;
+    left: 450px;
+    top: 350px;
+}
+.c7{
+    position: absolute;
+    color: white;
+    font-family: Arial Black;
+    left: 455px;
+    top: 400px; 
+}
+.c8{
+    position: absolute;
+    color: white;
+    font-family: Arial Black;
+    left: 450px;
+    top: 450px;
+}
+#portfolio{
+    position: relative;
+    height: 1000px;
+    width: 1370px;
+    background-color: white;
+    top: 20px;
+   
+}
+.c9{
+    position: absolute;
+    color: black;
+    font-family: Arial Black;
+    top: 10px;
+    left: 550px;
+}
+.rel{
+    position: absolute;
+    top: 170px;
+    height: 600px;
+    width: 1350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;    
+}
+#about{
+    position: relative;
+    height: 500px;
+    width: 1350px;
+    background-color: aqua;
+}
+.c17{
+    position: absolute;
+    color: white;
+    font-family: Arial Black;
+    top: 120px;
+    left: 470px;
+}
+.c18{
+    position: absolute;
+    color: white;
+    font-family: Arial Black;
+    top: 60px;
+    left: 600px;
+}
+.c19{
+    position: absolute;
+    color: white;
+    font-family: Arial Black;
+    top: 180px;
+    left: 300px;
+    font-size: 20px;
+}
+.c20{
+    position: absolute;
+    color: white;
+    font-family: Arial Black;
+    top: 180px;
+    left: 750px;
+    font-size: 20px;
+}
+.free{
+    border: 2px solid white;
+    background-color: aqua;
+    color: white;
+    font-family: Arial Black;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    bottom: 50px;
+    left: 620px;
+}
+#contact{
+    position: relative;
+    top: 20px;
+}
+.me{
+    position: absolute;
+    top: 30px;
+    left: 530px;
+    font-family: Arial Black;
+}
+
+.name{
+    position: absolute;
+    top: 120px;
+    left: 430px;
+    padding: 20px;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    font-size: 20px;
+}
+.email{
+    position: absolute;
+    top: 200px;
+    left: 430px;
+    padding: 20px;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    font-size: 20px;
+}
+.num{
+    position: absolute;
+    top: 280px;
+    left: 430px;
+    padding: 20px;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    font-size: 20px;
+}
+.message{
+    position: absolute;
+    top: 360px;
+    left: 430px;
+    padding: 50px;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    font-size: 20px;
+}
+.send{
+    position: absolute;
+    top: 500px;
+    left: 430px;
+    padding: 20px;
+    background-color: aqua;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial Black;
+    font-size: 20px;
+}
+.footer{
+    position: relative;
+    top: 580px;
+    height: 200px;
+    width: 1350px;
+    background-color: rgb(82, 80, 80);
+}
+.loc{
+    color: rgb(196, 184, 184);
+    font-family: Arial Black;
+    position: absolute;
+    left: 110px;
+    top: 30px;
+}
+.sd{
+    color: rgb(196, 184, 184);
+    font-family: Arial Black;
+    position: absolute;
+    left: 85px;
+    top: 70px;
+}
+.mo{
+    color: rgb(196, 184, 184);
+    font-family: Arial Black;
+    position: absolute;
+    left: 105px;
+    top: 90px;
+}
+.web{
+    color: rgb(196, 184, 184);
+    font-family: Arial Black;
+    position: absolute;
+    left: 500px;
+    top: 30px;
+}
+.f{
+    position: absolute;
+    left: 530px;
+    top: 80px;
+}
+.i{
+    position: absolute;
+    left: 580px;
+    top: 80px;
+}
+.l{
+    position: absolute;
+    left: 630px;
+    top: 80px;
+}
+.t{
+    position: absolute;
+    left: 680px;
+    top: 80px;
+}
+.lanc{
+    color: rgb(196, 184, 184);
+    font-family: Arial Black;
+    position: absolute;
+    left: 1000px;
+    top: 30px;
+}
+.tr{
+    color: rgb(196, 184, 184);
+    font-family: Arial Black;
+    position: absolute;
+    left: 970px;
+    top: 80px;
+}
+.td{
+    color: rgb(196, 184, 184);
+    font-family: Arial Black;
+    position: absolute;
+    left: 990px;
+    top: 100px;
+}
+.foot{
+    height: 100px;
+    width: 1350px;
+    background-color: rgb(85, 85, 185);
+    position: relative;
+    top: 580px;
+}
+.copy{
+    color: white;
+    position: absolute;
+    left: 570px;
+    top: 30px;
+}
+
+@media screen and (max-width: 450px){
+    .nav{
+        height: 100px;
+        width: 340px;
+        background-color: darkblue;
+        border: 1px solid darkblue;
+        position: relative;
+    }
+    .c1{
+        color: white;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        font-family: Arial Black;
+    }
+    .c2{
+        color: white;
+        position: absolute;
+        top: 65px;
+        left: 0px;
+        
+    }
+    .c3{
+        color: white;
+        position: absolute;
+        top: 65px;
+        left: 140px;
+    }
+    .c4{
+        color: white;
+        position: absolute;
+        top: 65px;
+        right: 0px;
+    }
+    .main{
+        position: relative;
+        height: 500px;
+        width: 340px;
+        background-color: aqua;
+    }
+    .c5{
+        position: absolute;
+        left: 50px;
+        top: 80px;
+    }
+    .c6{
+        position: absolute;
+        color: white;
+        font-size: 25px;
+        font-family: Arial Black;
+        left: 35px;
+        top: 340px;
+    }
+    .c7{
+        position: absolute;
+        color: white;
+        font-family: Arial Black;
+        font-size: 10px;
+        left: 40px;
+        top: 370px; 
+    }
+    .c8{
+        position: absolute;
+        color: white;
+        font-family: Arial Black;
+        font-size: 10px;
+        left: 30px;
+        top: 390px;
+    }
+    #portfolio{
+        position: relative;
+        height: 1000px;
+        width: 340px;
+        background-color: white;
+        top: 20px;
+    }
+    .c9{
+        position: absolute;
+        color: black;
+        font-family: Arial Black;
+        font-size: 20px;
+        top: 10px;
+        left: 105px;
+    }
+    .rel{
+        position: absolute;
+        top: 80px;
+        height: 1000px;
+        width: 450px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;    
+    }
+    #about{
+        position: relative;
+        height: 400px;
+        width: 340px;
+        top: 600px;
+        background-color: aqua;
+    }
+    .c17{
+        position: absolute;
+        color: white;
+        font-family: Arial Black;
+        top: 50px;
+        font-size: 10px;
+        left: 40px;
+    }
+    .c18{
+        position: absolute;
+        color: white;
+        font-size: 25px;
+        font-family: Arial Black;
+        top: 10px;
+        left: 125px;
+    }
+    .c19{
+        position: absolute;
+        color: white;
+        font-family: Arial Black;
+        top: 100px;
+        left: 70px;
+        font-size: 10px;
+    }
+    .c20{
+        position: absolute;
+        color: white;
+        font-family: Arial Black;
+        top: 200px;
+        left: 70px;
+        font-size: 10px;
+    }
+    .free{
+        border: 2px solid white;
+        background-color: aqua;
+        color: white;
+        font-family: Arial Black;
+        border-radius: 8px;
+        padding: 8px;
+        position: absolute;
+        bottom: 60px;
+        left: 60px;
+    }
+    #contact{
+        position: relative;
+        top: 600px;
+    }
+    .me{
+        position: absolute;
+        top: 20px;
+        left: 75px;
+        font-size: 25px;
+        font-family: Arial Black;
+    }
+    
+    .name{
+        position: absolute;
+        top: 70px;
+        left: 20px;
+        padding: 10px;
+        width: 300px;
+        border: none;
+        border-bottom: 1px solid rgb(153, 153, 153);
+        font-size: 15px;
+    }
+    .email{
+        position: absolute;
+        top: 120px;
+        left: 20px;
+        padding: 10px;
+        width: 300px;
+        border: none;
+        border-bottom: 1px solid rgb(153, 153, 153);
+        font-size: 15px;
+    }
+    .num{
+        position: absolute;
+        top: 170px;
+        left: 20px;
+        padding: 10px;
+        width: 300px;
+        border: none;
+        border-bottom: 1px solid rgb(153, 153, 153);
+        font-size: 15px;
+    }
+    .message{
+        position: absolute;
+        top: 220px;
+        left: 20px;
+        padding: 20px;
+        width: 300px;
+        border: none;
+        border-bottom: 1px solid rgb(153, 153, 153);
+        font-size: 15px;
+    }
+    .send{
+        position: absolute;
+        top: 300px;
+        left: 20px;
+        padding: 10px;
+        background-color: aqua;
+        border: 1px solid aqua;
+        border-radius: 10px;
+        color: white;
+        font-family: Arial Black;
+        font-size: 15px;
+    }
+    .footer{
+        position: relative;
+        top: 880px;
+        height: 400px;
+        width: 340px;
+        background-color: rgb(82, 80, 80);
+    }
+    .loc{
+        color: rgb(196, 184, 184);
+        font-family: Arial Black;
+        position: absolute;
+        left: 108px;
+        top: 20px;
+    }
+    .sd{
+        color: rgb(196, 184, 184);
+        font-family: Arial Black;
+        position: absolute;
+        left: 70px;
+        top: 55px;
+    }
+    .mo{
+        color: rgb(196, 184, 184);
+        font-family: Arial Black;
+        position: absolute;
+        left: 95px;
+        top: 75px;
+    }
+    .web{
+        color: rgb(196, 184, 184);
+        font-family: Arial Black;
+        position: absolute;
+        left: 65px;
+        top: 120px;
+    }
+    .f{
+        position: absolute;
+        left: 90px;
+        top: 150px;
+        height: 30px;
+    }
+    .i{
+        position: absolute;
+        left: 130px;
+        top: 150px;
+        height: 30px;
+    }
+    .l{
+        position: absolute;
+        left: 170px;
+        top: 150px;
+        height: 30px;
+    }
+    .t{
+        position: absolute;
+        left: 210px;
+        top: 150px;
+        height: 30px;
+    }
+    .lanc{
+        color: rgb(196, 184, 184);
+        font-family: Arial Black;
+        position: absolute;
+        left: 65px;
+        top: 200px;
+    }
+    .tr{
+        color: rgb(196, 184, 184);
+        font-family: Arial Black;
+        position: absolute;
+        left: 40px;
+        top: 230px;
+    }
+    .td{
+        color: rgb(196, 184, 184);
+        font-family: Arial Black;
+        position: absolute;
+        left: 25px;
+        top: 290px;
+    }
+    .foot{
+        height: 100px;
+        width: 340px;
+        background-color: rgb(85, 85, 185);
+        position: relative;
+        top: 880px;
+    }
+    .copy{
+        color: white;
+        position: absolute;
+        left: 20px;
+        top: 30px;
+    }
+}
+@media screen and (min-width: 1370px) {
+    
+.nav{
+    height: 100px;
+    width: 1370px;
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    position: relative;
+}
+.c1{
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-family: Arial Black;
+}
+.c2{
+    color: white;
+    position: absolute;
+    top: 35px;
+    right: 250px;
+    
+}
+.c3{
+    color: white;
+    position: absolute;
+    top: 35px;
+    right: 160px;
+}
+.c4{
+    color: white;
+    position: absolute;
+    top: 35px;
+    right: 50px;
+}
+.main{
+    position: relative;
+    height: 600px;
+    width: 1370px;
+    background-color: aqua;
+}
+.c5{
+    position: absolute;
+    left: 550px;
+    top: 80px;
+}
+.c6{
+    position: absolute;
+    color: white;
+    font-family: Arial Black;
+    left: 450px;
+    top: 350px;
+}
+.c7{
+    position: absolute;
+    color: white;
+    font-family: Arial Black;
+    left: 455px;
+    top: 400px; 
+}
+.c8{
+    position: absolute;
+    color: white;
+    font-family: Arial Black;
+    left: 450px;
+    top: 450px;
+}
+#portfolio{
+    position: relative;
+    height: 1000px;
+    width: 1370px;
+    background-color: white;
+    top: 20px;
+   
+}
+.c9{
+    position: absolute;
+    color: black;
+    font-family: Arial Black;
+    top: 10px;
+    left: 550px;
+}
+.rel{
+    position: absolute;
+    top: 170px;
+    height: 600px;
+    width: 1350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;    
+}
+#about{
+    position: relative;
+    height: 500px;
+    width: 1350px;
+    background-color: aqua;
+}
+.c17{
+    position: absolute;
+    color: white;
+    font-family: Arial Black;
+    top: 120px;
+    left: 470px;
+}
+.c18{
+    position: absolute;
+    color: white;
+    font-family: Arial Black;
+    top: 60px;
+    left: 600px;
+}
+.c19{
+    position: absolute;
+    color: white;
+    font-family: Arial Black;
+    top: 180px;
+    left: 300px;
+    font-size: 20px;
+}
+.c20{
+    position: absolute;
+    color: white;
+    font-family: Arial Black;
+    top: 180px;
+    left: 750px;
+    font-size: 20px;
+}
+.free{
+    border: 2px solid white;
+    background-color: aqua;
+    color: white;
+    font-family: Arial Black;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    bottom: 50px;
+    left: 620px;
+}
+#contact{
+    position: relative;
+    top: 20px;
+}
+.me{
+    position: absolute;
+    top: 30px;
+    left: 530px;
+    font-family: Arial Black;
+}
+
+.name{
+    position: absolute;
+    top: 120px;
+    left: 430px;
+    padding: 20px;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    font-size: 20px;
+}
+.email{
+    position: absolute;
+    top: 200px;
+    left: 430px;
+    padding: 20px;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    font-size: 20px;
+}
+.num{
+    position: absolute;
+    top: 280px;
+    left: 430px;
+    padding: 20px;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    font-size: 20px;
+}
+.message{
+    position: absolute;
+    top: 360px;
+    left: 430px;
+    padding: 50px;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    font-size: 20px;
+}
+.send{
+    position: absolute;
+    top: 500px;
+    left: 430px;
+    padding: 20px;
+    background-color: aqua;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial Black;
+    font-size: 20px;
+}
+.footer{
+    position: relative;
+    top: 580px;
+    height: 200px;
+    width: 1350px;
+    background-color: rgb(82, 80, 80);
+}
+.loc{
+    color: rgb(196, 184, 184);
+    font-family: Arial Black;
+    position: absolute;
+    left: 110px;
+    top: 30px;
+}
+.sd{
+    color: rgb(196, 184, 184);
+    font-family: Arial Black;
+    position: absolute;
+    left: 85px;
+    top: 70px;
+}
+.mo{
+    color: rgb(196, 184, 184);
+    font-family: Arial Black;
+    position: absolute;
+    left: 105px;
+    top: 90px;
+}
+.web{
+    color: rgb(196, 184, 184);
+    font-family: Arial Black;
+    position: absolute;
+    left: 500px;
+    top: 30px;
+}
+.f{
+    position: absolute;
+    left: 530px;
+    top: 80px;
+}
+.i{
+    position: absolute;
+    left: 580px;
+    top: 80px;
+}
+.l{
+    position: absolute;
+    left: 630px;
+    top: 80px;
+}
+.t{
+    position: absolute;
+    left: 680px;
+    top: 80px;
+}
+.lanc{
+    color: rgb(196, 184, 184);
+    font-family: Arial Black;
+    position: absolute;
+    left: 1000px;
+    top: 30px;
+}
+.tr{
+    color: rgb(196, 184, 184);
+    font-family: Arial Black;
+    position: absolute;
+    left: 970px;
+    top: 80px;
+}
+.td{
+    color: rgb(196, 184, 184);
+    font-family: Arial Black;
+    position: absolute;
+    left: 990px;
+    top: 100px;
+}
+.foot{
+    height: 100px;
+    width: 1350px;
+    background-color: rgb(85, 85, 185);
+    position: relative;
+    top: 580px;
+}
+.copy{
+    color: white;
+    position: absolute;
+    left: 570px;
+    top: 30px;
+}
+}
